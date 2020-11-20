@@ -24,9 +24,5 @@ do
         done
 done
 
-echo "Array in decending order :"
-dec[0]=${values[3]}
-dec[1]=${values[2]}
-dec[2]=${values[1]}
-dec[3]=${values[0]}
-echo ${dec[@]}
+echo "Array in ascending order : ${values[*]}"
+
